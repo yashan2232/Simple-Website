@@ -1,0 +1,211 @@
+<htmal>
+    <head>
+        <meta name="viewpoint"
+        content="width=device-width, initial scale=1.0">
+        <title>Final Project</title>
+        <link rel="stylesheet" href="final.css">
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+    
+            .switch {
+      position: relative;
+      display: inline-block;
+      width: 60px;
+      height: 34px;
+    }
+    
+    .switch input { 
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+    
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+    
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+    
+    input:focus + .slider {
+      box-shadow: 0 0 1px #2196F3;
+    }
+    
+    input:checked + .slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+    
+    .slider.round {
+      border-radius: 34px;
+    }
+    
+    .slider.round:before {
+      border-radius: 50%;
+    }
+        </style>
+    </head>
+    <body>
+        <div class="hero"> 
+            <div class="navbar">
+                <img src="logo.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Trade</a></li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                      </label>
+                </nav>
+                <div class="content">
+                    <small>Welcome to our</small>
+                    <h1>Crypto <br>Trading bot</h1>
+                    <button type="button">Take a tour</button>
+                </div>
+            </div>
+           
+            <div class="side-bar">
+                <img src="menu.png" class="menu">
+                <div class="social-links">
+                    <img src="fb.png">
+                    <img src="ig.png">
+                    <img src="tw.png">
+                </div>
+                <div class="useful-links">
+                    <img src="share.png">
+                    <img src="info.png">
+                    
+                </div>
+                <div class="links">
+                    <p><a href="https://www.binance.com/en/markets">Binance</a></p> <br>
+                    <p><a href="https://www.binary.com/en/home.html">Binary</a></p> <br>
+                    <p><a href="https://expertoption.com/">Expert Option</a></p> <br>
+                    <p><a href="https://www.forex.com/en/">Forex</a></p> <br>
+                    <p><a href="https://csc.gov.in/">Stock Market</a></p> <br>
+                </div>
+    
+            </div>
+    
+        </div>
+            <div class="bubble">
+                <img src="bubble.png" >
+                <img src="bubble.png" >
+                <img src="bubble.png" >
+                <img src="bubble.png" >
+                <img src="bubble.png" >
+                <img src="bubble.png" >
+                <img src="bubble.png" >
+            </div>
+            
+        </div>
+        <h1 style="text-align: center; margin-top: 50px; font-size: 50px;">Popular Cryptocurrencies</h1>
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Last Price</th>
+              <th>Market Cap</th>
+            </tr>
+            <tr>
+              <td>BNB</td>
+              <td>$269.5</td>
+              <td>$43,480M</td>
+            </tr>
+            <tr>
+              <td>Bitcoin</td>
+              <td>$18.708</td>
+              <td>$358,570M</td>
+            </tr>
+            <tr>
+              <td>Etherum</td>
+              <td>$1,281</td>
+              <td>$90M</td>
+            </tr>
+            <tr>
+                <td>Galm</td>
+                <td>$18.708</td>
+                <td>$358,570M</td>
+            </tr>
+            <tr>
+                <td>Galxe</td>
+                <td>$269.5</td>
+                <td>$43,480M</td>
+            </tr>
+            <tr>
+                <td>Green Metaverse</td>
+                <td>$269.5</td>
+                <td>$43,480M</td>
+            </tr>
+          </table>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+    </script>
+    
+    </body>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     </html>
